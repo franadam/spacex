@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  max-width: 80vw;
+}
+
+.logo{
+  width: 100%;
+}
+
+.label {
+  color: #bec0c4;
+  text-transform: capitalize;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+
+.icon  {
+  margin: .5rem;
+  height: 100%;
+  width: 3rem;
+}

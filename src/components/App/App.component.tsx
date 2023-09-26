@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import { Home } from '../../pages';
+
+import { About, Home, Mission } from '../../pages';
 import MainLayout from '../../hoc/MainLayout.hoc';
 
 const App: FC = (): JSX.Element => {
@@ -9,6 +10,8 @@ const App: FC = (): JSX.Element => {
       <MainLayout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/missions" element={<Mission />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>

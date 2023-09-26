@@ -13,9 +13,6 @@ const Navbar: FC = (): JSX.Element => {
         <Link to={'/missions'} className={classes.link}>
           Missions
         </Link>
-        <Link to={'/rockets'} className={classes.link}>
-          Rockets
-        </Link>
         <Link to={'/about'} className={classes.link}>
           About
         </Link>
